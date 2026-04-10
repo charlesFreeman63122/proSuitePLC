@@ -99,6 +99,14 @@ SWR-001516,"Current I/O Config Error Base",false,"0",,,,,,,"I/O base in which ""
 SWR-001515,"Current I/O Config Error Group",false,"0",,,,,,,"I/O group in which ""I/O Configuration Error"" occurred",,,,false,,"SWR",,false
 SWR-001517,"Current I/O Config Error Slot",false,"0",,,,,,,"I/O slot in which ""I/O Configuration Error"" occurred",,,,false,,"SWR",,false
 SWR-001511,"Current Non-critical Error",false,"0",,,,,,,"Current Non-Critical Error number (0 if no active errors present)",,,,false,,"SWR",,false
+DO-0.1.2.1,"DO-0.1.2.1",false,"0",,,,,,,,false,false,"0",false,"DO-0.1.2.1","DO",,false
+DO-0.1.2.2,"DO-0.1.2.2",false,"0",,,,,,,,false,false,"0",false,"DO-0.1.2.2","DO",,false
+DO-0.1.2.3,"DO-0.1.2.3",false,"0",,,,,,,,false,false,"0",false,"DO-0.1.2.3","DO",,false
+DO-0.1.2.4,"DO-0.1.2.4",false,"0",,,,,,,,false,false,"0",false,"DO-0.1.2.4","DO",,false
+DO-0.1.2.5,"DO-0.1.2.5",false,"0",,,,,,,,false,false,"0",false,"DO-0.1.2.5","DO",,false
+DO-0.1.2.6,"DO-0.1.2.6",false,"0",,,,,,,,false,false,"0",false,"DO-0.1.2.6","DO",,false
+DO-0.1.2.7,"DO-0.1.2.7",false,"0",,,,,,,,false,false,"0",false,"DO-0.1.2.7","DO",,false
+DO-0.1.2.8,"DO-0.1.2.8",false,"0",,,,,,,,false,false,"0",false,"DO-0.1.2.8","DO",,false
 SWR-001526,"Ethernet Speed [External]",false,"0",,,,,,,"""Ethernet"" port speed (Ethernet 10 or 100)",,,,false,,"SWR",,false
 SWR-001527,"Ethernet Speed [Internal]",false,"0",,,,,,,"""Remote I/O"" port speed (Ethernet 10 or 100)",,,,false,,"SWR",,false
 SBR-001004,"Every Other Scan Bit",false,"0",,,,,,,"Toggles at the start of each scan",,,,false,,"SBR",,false
@@ -194,5 +202,12 @@ SBR-001010,"Switch in Run Bit",false,"0",,,,,,,"Active if CPU Switch is up (Run)
 SBR-001011,"Switch in Stop Bit",false,"0",,,,,,,"Active if CPU Switch is down (Stop)",,,,false,,"SBR",,false
 SWR-001507,"Total Scan Count1",false,"0",,,,,,,"Total number of scans since entering Run mode (S32 low word)",,,,false,,"SWR",,false
 SWR-001508,"Total Scan Count2",false,"0",,,,,,,"Total number of scans since entering Run mode (S32 high word)",,,,false,,"SWR",,false
+S32-000001,"Was_AIS32-0.1.1.1",false,"0",,,,,,,,false,false,"0",false,,"AIS32",,false
+S32-000002,"Was_AIS32-0.1.1.2",false,"0",,,,,,,,false,false,"0",false,,"AIS32",,false
+S32-000003,"Was_AOS32-0.1.1.1",false,"0",,,,,,,,false,false,"0",false,,"AOS32",,false
 SBR-001016,"Watchdog Timeout",false,"0",,,,,,,"Active if the overall scan time (logic and I/O) has exceeded the limit set in the project",,,,false,,"SBR",,false
 C-000001,"c100",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000004,"c101",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000002,"c102",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000003,"c103",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000005,"c110",false,"0",,,,,,,,false,false,"0",false,,"C",,false
